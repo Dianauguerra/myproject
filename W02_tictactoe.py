@@ -29,8 +29,8 @@ def main():
             has_winner(player1)
             break
         
-        y_turn = int(input("o's turn to choose a square(1-9): "))
-        get_answer(y_turn, player2)
+        o_turn = int(input("o's turn to choose a square(1-9): "))
+        get_answer(o_turn, player2)
         print_answer()
 
         if  row1[0] == row1[1] == row1[2] == player2 or \
